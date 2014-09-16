@@ -1,5 +1,4 @@
 <h1> Make this look pretty later </h1>
-
 <table> 
   {% for k in info %}
     <tr>
