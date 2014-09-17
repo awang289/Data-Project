@@ -1,4 +1,5 @@
-<h1> Make this look pretty later </h1>
+<link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+<h1> Analysis of our Data </h1>
 To further explore the dataset, we took each column and computed the arithmetic mean of the values, provided by each player's prowess on the field. This made it easy to pinpoint the weaker players, since they consistently performed unspectacularly for each group of data provided. While writing the code, we had issues with transporting data from our csv file to be manipulated by python for a final html string. This was overcome with more careful coding as well as frequent test runs to make sure our corrections worked. We also ran into a problem with extracting just one row from the dataset. However, extraction proved to be more difficult and we resorted to making another csv file that contained just that row instead.
 <table> 
   {% for k in info %}
